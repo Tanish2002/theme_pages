@@ -19,6 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+baseurl: "/gsoc2023-Prakhar_bansal" # the subpath of your site, e.g. /blog
+url: "https://theroboticsclub.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
@@ -26,7 +28,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
@@ -58,13 +60,13 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "Prakhar Bansal"
-  avatar: "/assets/images/bio-photo.jpeg"
-  bio: "Computer Science graduate from SRM Institute of Science and Technology with a specialisation in Cloud Computing ."
+  name   : "Prakhar Bansal"
+  avatar : "/assets/images/bio-photo.jpeg"
+  bio    : "Computer Science graduate from SRM Institute of Science and Technology with a specialisation in Cloud Computing ."
   links:
-    #    - label: "Website"
-    #      icon: "fas fa-fw fa-link"
-    #      url: "https://"
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/pb3031/"
@@ -83,6 +85,15 @@ author:
 
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/pb3031/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Prakhar-commits"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/PrakharB__"
