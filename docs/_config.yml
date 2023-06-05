@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/gsoc2023-Prakhar_bansal" # the subpath of your site, e.g. /blog
 url: "https://theroboticsclub.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: username
-github_username: username
+github_username: usernamex
 minimal_mistakes_skin: default
 search: true
 
