@@ -22,13 +22,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/gsoc2023-Prakhar_bansal" # the subpath of your site, e.g. /blog
 url: "https://theroboticsclub.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: username
-github_username: usernamex
+github_username: username
 minimal_mistakes_skin: default
 search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
@@ -37,6 +37,8 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - _posts
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -101,7 +103,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
